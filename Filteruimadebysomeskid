@@ -11,7 +11,7 @@ local Guns = Instance.new("TextButton")
 local Animations = Instance.new("TextButton")
 local Other = Instance.new("TextButton")
 local Hats = Instance.new("TextButton")
-local Dances_2 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
 
 --Properties:
 
@@ -124,13 +124,16 @@ Hats.Text = "Hat stuff"
 Hats.TextColor3 = Color3.fromRGB(0, 0, 255)
 Hats.TextSize = 14.000
 
-Dances_2.Name = "Dances"
-Dances_2.Parent = Hundm
-Dances_2.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
-Dances_2.BackgroundTransparency = 0.600
-Dances_2.Position = UDim2.new(0.333333313, 0, 0.850000024, 0)
-Dances_2.Size = UDim2.new(0, 100, 0, 30)
-Dances_2.Font = Enum.Font.SourceSans
-Dances_2.Text = "Close"
-Dances_2.TextColor3 = Color3.fromRGB(255, 0, 0)
-Dances_2.TextSize = 14.000
+Close.Name = "Dances"
+Close.Parent = Hundm
+Close.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Close.BackgroundTransparency = 0.600
+Close.Position = UDim2.new(0.333333313, 0, 0.850000024, 0)
+Close.Size = UDim2.new(0, 100, 0, 30)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextSize = 14.000
+Close.MouseButton1Down:connect(function()
+Hundm.Visible = false
+end)
