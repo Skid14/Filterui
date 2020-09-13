@@ -1,0 +1,136 @@
+--Filterui made by #Free_Name #6202
+
+local ScreenGui = Instance.new("ScreenGui")
+local Hundm = Instance.new("Frame")
+local Background = Instance.new("ImageLabel")
+local Dances = Instance.new("TextButton")
+local Dances2 = Instance.new("TextButton")
+local Dancesfuenf2 = Instance.new("TextButton")
+local Dancesfuenf = Instance.new("TextButton")
+local Guns = Instance.new("TextButton")
+local Animations = Instance.new("TextButton")
+local Other = Instance.new("TextButton")
+local Hats = Instance.new("TextButton")
+local Dances_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Hundm.Name = "Hundm"
+Hundm.Parent = ScreenGui
+Hundm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hundm.BorderColor3 = Color3.fromRGB(0, 0, 85)
+Hundm.BorderSizePixel = 8
+Hundm.Position = UDim2.new(0.179123715, 0, 0.172413796, 0)
+Hundm.Size = UDim2.new(0, 300, 0, 300)
+Hundm.Visible = true
+Hundm.Draggable = true
+
+Background.Name = "Background"
+Background.Parent = Hundm
+Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Background.BorderSizePixel = 2
+Background.Position = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+Background.Size = UDim2.new(0, 270, 0, 270)
+Background.Image = "http://www.roblox.com/asset/?id=4681641501"
+
+Dances.Name = "Dances"
+Dances.Parent = Hundm
+Dances.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Dances.BackgroundTransparency = 0.600
+Dances.Position = UDim2.new(0.0766666681, 0, 0.0733333379, 0)
+Dances.Size = UDim2.new(0, 100, 0, 30)
+Dances.Font = Enum.Font.SourceSans
+Dances.Text = "Dances"
+Dances.TextColor3 = Color3.fromRGB(0, 0, 255)
+Dances.TextSize = 14.000
+
+Dances2.Name = "Dances2"
+Dances2.Parent = Hundm
+Dances2.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Dances2.BackgroundTransparency = 0.600
+Dances2.Position = UDim2.new(0.589999974, 0, 0.0733333379, 0)
+Dances2.Size = UDim2.new(0, 100, 0, 30)
+Dances2.Font = Enum.Font.SourceSans
+Dances2.Text = "Dances2"
+Dances2.TextColor3 = Color3.fromRGB(0, 0, 255)
+Dances2.TextSize = 14.000
+
+Dancesfuenf2.Name = "Dancesfuenf2"
+Dancesfuenf2.Parent = Hundm
+Dancesfuenf2.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Dancesfuenf2.BackgroundTransparency = 0.600
+Dancesfuenf2.Position = UDim2.new(0.589999974, 0, 0.266666651, 0)
+Dancesfuenf2.Size = UDim2.new(0, 100, 0, 30)
+Dancesfuenf2.Font = Enum.Font.SourceSans
+Dancesfuenf2.Text = "Dances r15 2"
+Dancesfuenf2.TextColor3 = Color3.fromRGB(0, 0, 255)
+Dancesfuenf2.TextSize = 14.000
+
+Dancesfuenf.Name = "Dancesfuenf"
+Dancesfuenf.Parent = Hundm
+Dancesfuenf.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Dancesfuenf.BackgroundTransparency = 0.600
+Dancesfuenf.Position = UDim2.new(0.0766666532, 0, 0.266666651, 0)
+Dancesfuenf.Size = UDim2.new(0, 100, 0, 30)
+Dancesfuenf.Font = Enum.Font.SourceSans
+Dancesfuenf.Text = "Dances r15"
+Dancesfuenf.TextColor3 = Color3.fromRGB(0, 0, 255)
+Dancesfuenf.TextSize = 14.000
+
+Guns.Name = "Guns"
+Guns.Parent = Hundm
+Guns.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Guns.BackgroundTransparency = 0.600
+Guns.Position = UDim2.new(0.0766666532, 0, 0.449999988, 0)
+Guns.Size = UDim2.new(0, 100, 0, 30)
+Guns.Font = Enum.Font.SourceSans
+Guns.Text = "Guns"
+Guns.TextColor3 = Color3.fromRGB(0, 0, 255)
+Guns.TextSize = 14.000
+
+Animations.Name = "Animations"
+Animations.Parent = Hundm
+Animations.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Animations.BackgroundTransparency = 0.600
+Animations.Position = UDim2.new(0.589999974, 0, 0.449999988, 0)
+Animations.Size = UDim2.new(0, 100, 0, 30)
+Animations.Font = Enum.Font.SourceSans
+Animations.Text = "Animations"
+Animations.TextColor3 = Color3.fromRGB(0, 0, 255)
+Animations.TextSize = 14.000
+
+Other.Name = "Other"
+Other.Parent = Hundm
+Other.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Other.BackgroundTransparency = 0.600
+Other.Position = UDim2.new(0.0766666681, 0, 0.649999976, 0)
+Other.Size = UDim2.new(0, 100, 0, 30)
+Other.Font = Enum.Font.SourceSans
+Other.Text = "Special"
+Other.TextColor3 = Color3.fromRGB(0, 0, 255)
+Other.TextSize = 14.000
+
+Hats.Name = "Hats"
+Hats.Parent = Hundm
+Hats.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Hats.BackgroundTransparency = 0.600
+Hats.Position = UDim2.new(0.589999974, 0, 0.649999976, 0)
+Hats.Size = UDim2.new(0, 100, 0, 30)
+Hats.Font = Enum.Font.SourceSans
+Hats.Text = "Hat stuff"
+Hats.TextColor3 = Color3.fromRGB(0, 0, 255)
+Hats.TextSize = 14.000
+
+Dances_2.Name = "Dances"
+Dances_2.Parent = Hundm
+Dances_2.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Dances_2.BackgroundTransparency = 0.600
+Dances_2.Position = UDim2.new(0.333333313, 0, 0.850000024, 0)
+Dances_2.Size = UDim2.new(0, 100, 0, 30)
+Dances_2.Font = Enum.Font.SourceSans
+Dances_2.Text = "Close"
+Dances_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+Dances_2.TextSize = 14.000
